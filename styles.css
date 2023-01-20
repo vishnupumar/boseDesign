@@ -70,12 +70,14 @@ body{
 .quote{
     text-align: center;
     font-size: 20px;
-    margin:50px 0 0 150px;
+    margin:50px 0 0 50px;
+    width: 50%;
 }
 .mountainquote{
     text-align: center;
     font-size: 20px;
     margin:50px 0 0 150px;
+    width: 50%;
 }
 .mountaincontent{
     margin: 20px 80px;
@@ -99,13 +101,17 @@ body{
     border-style: none;
     margin: 50px;
 }
+.soundbarimg{
+    width: 50%;
+}
 .soundbarimg img{
-    width:500px;
+    width:100%;
+    height: 300px;
 }
 
 .headphones{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     color: white;
 }
 .productCard h1{
@@ -114,6 +120,7 @@ body{
 }
 .productCard{
     padding: 80px 50px;
+    width: 50%;
 }
 .price{
     font-size: 30px;
@@ -148,7 +155,8 @@ body{
 }
 
 .headphoneimg img{
-    width: 800px;
+    width: 80%;
+    height: 500px;
 }
 
 .headsetCards{
@@ -160,6 +168,10 @@ body{
     margin: 60px 10px;
     
 }
+.headsetimage img{
+    width: 100%;
+}
+
 .relatedCards{
     display: flex;
     justify-content: center;
@@ -178,7 +190,7 @@ body{
     color: rgb(102, 102, 107);
 }
 .relatedCards img{
-    width: 200px;
+    width: 100%;
     margin-bottom: 20px;
 }
 .relatedCards h1{
@@ -203,6 +215,10 @@ body{
     width: 50%;
     margin: auto;
     padding-top: 50px;
+}
+.premiumtext h1{
+    margin-bottom: 15px;
+    font-family: sans-serif;
 }
 
 .batterylife{
